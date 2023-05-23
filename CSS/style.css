@@ -1,0 +1,19 @@
+body {
+    background-color: #F1F5F8;
+    color: #00652C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+}
+main {
+    border-radius: 10px;
+}
+.card-zoom {
+    transition: transform 0.3s;
+  }
+
+  .card-zoom:hover {
+    transform: scale(1.1);
+  }
