@@ -1,0 +1,140 @@
+body {
+    background-color: #F1F5F8;
+    color: #00652C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+}
+main {
+    border-radius: 10px;
+}
+.card-zoom {
+    transition: transform 0.3s;
+  }
+
+  .card-zoom:hover {
+    transform: scale(1.1);
+  }
+
+  .image-container {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: -70vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .text-overlay {
+    margin: 0;
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: bolder;
+  }
+  /* Estilos para o formulário */
+  form {
+    max-width: 60%;
+    margin-left: 105px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 13px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: block;
+  }
+  ::placeholder{
+    font-size: 13px;
+  }
+  .info-col{
+    margin-top: -470px;
+    margin-right: 100px;
+    float: right;
+    text-align: center;
+  }
+  h6{
+    color:black
+  }
+  .info-col .whatsapp{
+    margin-bottom: 30px;
+  }
+  .info-col .whatsapp .whatsapp-icon{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .info-col .nossoEmail{
+    margin-bottom: 30px;
+  }
+  
+  .info-col .redesSociais{
+    margin-bottom: 30px;
+  }
+select,
+textarea{
+  width: 855px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: block;
+}
+  /* Estilos para os campos de input */
+  .form-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .form-row .campo{
+    width: 220px;
+    flex: 1 0 50%;
+  }
+  #mensagem{
+    height: 100px;
+    margin-top:5px;
+    width:855px;
+  }
+
+  /*Estilos para os botões*/
+  button {
+    width: 280px;
+    padding: 10px 20px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+.limparForm{
+  margin-right:10px;
+  background-color: #ffff;
+  color:#00652C;
+}
+
+.enviarForm{
+  margin-left: 285px;
+  background-color: #00652C;
+  color:#ffff;
+}
