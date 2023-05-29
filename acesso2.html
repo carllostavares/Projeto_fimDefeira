@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
+
+  <head>
+    <title>Fim de Feira</title>
+    <link rel="icon" href="Images/logofimdefeira1.png" type="image/png">
+  </head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+  body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+
+  }
+  .logo{
+    padding: 30px;
+  }
+
+  .fundo-branco{
+    position: absolute;
+    width: 704px;
+    height: 437px;
+    left: calc(50% - 704px/2);
+    top: calc(50% - 481px/2 - 77px);
+    background: #FFFFFF;
+    border-radius: 16px;
+    top: 103px;
+  }
+
+  .cliente-fimdefeira{
+    color: #1E1E1E;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+  }
+
+  .informe-email{
+    width: 376px;
+    height: 38.45px;
+    left: calc(37% - 220px/2 - 0.15px);
+    top: 110px;
+    border-radius: 14px;
+    border-width: 0.3px;
+    border-color: #999999;
+    padding-left: 36px;
+    
+  }
+
+
+  .esqueceu-senha{
+    font-weight: 500;
+    text-align: left;
+    padding-left: 24%;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .botao-entrar{
+    width: 376px;
+    height: 38.45px;
+    left: calc(37% - 220px/2 - 0.15px);
+    border-radius: 18px;
+    border-width: 0.3px;
+    border-color: #999999;
+    text-align: center;
+    background-color: #00652C;
+    color: white;
+    
+  }
+</style>
+</head>
+
+
+<body>
+ <!-- Inicio Logo -->
+ 
+  
+  <main>
+ <!-- Inicio Logo -->
+    <div class="logo">
+        <a class="navbar-brand" href=""><img src="Images/logofimdefeira.png" alt=""></a>
+    </div>
+<!-- Fim logo -->
+
+<!-- Inicio acesso a conta -->
+    <div class="container">
+    <div class="fundo-branco">
+        
+        <div>
+        <h1 style="margin-top: 87px;"><strong>Acesse sua conta</strong></h1>
+        
+        </div>
+
+        <div style="margin-top: 27px;">
+        <label for="ctrl-informe-email"></label>
+        <input type="text" placeholder="Informe seu Email" id="ctrl-informe-email" class="informe-email">
+        <img src="Images/email.png" alt="logo_email" height="25px"
+            style="margin-top: 7px; position: absolute; margin-left: -368px;">
+        </div>
+
+        <div style="margin-top: 17px;">
+            <label for="ctrl-senha"></label>
+            <input type="password" placeholder="Digite sua senha" id="ctrl-senha" class="informe-email">
+            <img src="Images/cadeado.png" alt="icon-cadeado" height="27px"
+            style="margin-top: 5px; position: absolute; margin-left: -368px;">
+        </div>
+
+        <div class="esqueceu-senha" style="margin: 10px 0;" >
+            <a style="font-weight: bold;">Esqueceu sua senha?</a>
+        </div>
+
+        <div>
+            <input type="submit" value="ENTRAR" id="ctrl-continuar" name="continuar" class="botao-entrar" style="font-weight: bold;">
+            <label for="ctrl-entrar"></label>
+        </div>
+    </div>
+    </div>
+<!-- Fimacesso a conta -->
+</main>
+
+  
+  <!-- Inicio do Rodapé -->
+  <footer id="rodape" class="border-top"  style="background-color: #00652C; margin-top: 490px;">
+    <div class="container">
+      <div class="row py-5">
+        <div id="logo" class="col-12 col-md-2 text-md-left text-center d-flex justify-content-center align-items-center"
+          style="color: #ffffff;">
+          <img src="Images/FIMDEFEIRA letra.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-12 col-md-4 text-md-left d-flex justify-content-center align-items-center"
+          style="color: #ffffff; font-style: normal; font-size: 11px;">
+          <p>
+            &copy; 2023 - Fim de Feira <br>
+            Todos os direitos reservados - CNPJ 00.000.000/0001-00 <br>
+            R. do Pombal, 57 - Santo Amaro, Recife - PE, 50100-170
+          </p>
+        </div>
+        <div class="col-12 col-md-2 text-md-left" style="color: #ffffff; font-size: 16px;">
+          <img src="Images/exclamation-circle-solid.png" alt="">
+          <a>Social<br></a>
+          <div class="text-lg-start" style="font-size: 12px;">
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Facebook<br></a>
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Instagram<br></a>
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Whatsapp (81) 3050-3050<br></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 text-md-left" style="color: #ffffff; font-size: 16px;">
+          <img src="Images/exclamation-circle-solid.png" alt="">
+          <a>Informações<br></a>
+          <div class="text-lg-start" style="font-size: 12px;">
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Fale Conosco<br></a>
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Cadastre seu Mercado<br></a>
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Quem Somos<br></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 text-md-left" style="color: #ffffff; font-size: 16px;">
+          <img src="Images/file.png" alt="">
+          <a>Nossas políticas<br></a>
+          <div class="text-lg-start" style="font-size: 12px;">
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Privacidade<br></a>
+            <a href="#" class="text-decoration-none" style="color: #ffffff;">Termos de Uso<br></a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  <!-- Fim do Rodapé
+
+</body>
+
+</html>
